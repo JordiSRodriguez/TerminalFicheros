@@ -172,6 +172,7 @@ public class Comandos {
                     int i;
                     while ((i = bufferLectura.read()) != -1) {
                         System.out.print((char) i);
+                        System.out.println("");
                     }
                     bufferLectura.close();
                 } catch (IOException e) {
