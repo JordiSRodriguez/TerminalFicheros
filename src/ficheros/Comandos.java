@@ -343,7 +343,9 @@ public class Comandos {
                 } else {
                     f.delete();
                 }
-            } else {
+                System.out.println("Fichero/s borrado/s");
+            }
+            else {
                 System.out.println("Ese fichero no existe");
             }
         } else if (valores.length == 1) {
