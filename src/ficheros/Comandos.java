@@ -356,11 +356,11 @@ public class Comandos {
         }
     }
 
-    public static void deleteDirectorio(File direct) {
-        if (direct.exists()) {
-            File[] files = direct.listFiles();
-            if (files != null) {
-                for (File hijo : files) {
+    public static void deleteDirectorio(File directorio) {
+        if (directorio.exists()) {
+            File[] ficheros = directorio.listFiles();
+            if (ficheros != null) {
+                for (File hijo : ficheros) {
                     if (hijo.isDirectory()) {
                         deleteDirectorio(hijo);
                     } else {
@@ -368,7 +368,7 @@ public class Comandos {
                     }
                 }
             }
-            direct.delete();
+            directorio.delete();
         }
     }
 
