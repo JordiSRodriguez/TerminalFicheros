@@ -2,5 +2,5 @@ Texto prueba
 pruebatexto
 texto de prueba
 prueba de texto
-texto de prueba texto
+texto de prueba textual
 prueba textual de texto
